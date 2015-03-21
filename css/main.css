@@ -1545,4 +1545,9 @@ a.navbar-brand {
     width: 20%;
     *width: 20%;
 }
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
 /*======================END============================*/
