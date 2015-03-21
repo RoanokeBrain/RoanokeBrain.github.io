@@ -282,7 +282,7 @@ a.navbar-brand {
 
 #navigation .navbar-right {
 	margin-top: 60px;
-	margin-right: 35px;
+	margin-right: -15px;
 }
 
 #navigation .navbar-right li {
