@@ -403,11 +403,34 @@
      <div id="recent-post" class="padding-bottom padding-top-two">
           <div class="container">
                <div class="row">
-                     <div class="section-title event-title">
-                          <h1>Events</h1>
-                     </div>
-                     <div id="upto-calendar-container-5NeO" class="upto-calendar-plugin"><script>!function(c,b,a){function d(h){var e=document.getElementById("upto-calendar-container-"+c),f=document.createElement("SCRIPT"),g="https://upto.com/js/plugin.js";f.onreadystatechange=function(){if(f.readyState==="loaded"||f.readyState==="complete"){f.onreadystatechange=null;h()}};f.onload=function(){h()};f.setAttribute("src",g);e.parentNode.insertBefore(f,e)}d(function(){upto.init(c)})}("5NeO");</script>
-                	 </div>
+                    <div class="section-title event-title">
+                         <h1>Events</h1>
+                    </div>
+                    <div id="upto-calendar-container-5NeO" class="upto-calendar-plugin">
+                         <script>
+                              ! function (c, b, a) {
+                                   function d(h) {
+                                        var e = document.getElementById("upto-calendar-container-" + c),
+                                             f = document.createElement("SCRIPT"),
+                                             g = "https://upto.com/js/plugin.js";
+                                        f.onreadystatechange = function () {
+                                             if (f.readyState === "loaded" || f.readyState === "complete") {
+                                                  f.onreadystatechange = null;
+                                                  h()
+                                             }
+                                        };
+                                        f.onload = function () {
+                                             h()
+                                        };
+                                        f.setAttribute("src", g);
+                                        e.parentNode.insertBefore(f, e)
+                                   }
+                                   d(function () {
+                                        upto.init(c)
+                                   })
+                              }("5NeO");
+                         </script>
+                    </div>
                </div>
           </div>
      </div>
@@ -1254,26 +1277,6 @@
                                    <a class="contact-info" href="#">RoanokeBrain@gmail.com</a>
                               </div>
                          </div>
-                         <div class="contact-form">
-                              <form id="contact-form" class="contact-form" name="contact-form" method="post" action="#">
-                                   <div class="row">
-                                        <div class="form-group col-sm-6">
-                                             <input type="text" name="name" class="form-control" required="required" placeholder="Name">
-                                             <input type="text" name="company" class="form-control" placeholder="Company">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                             <input type="email" name="email" class="form-control" required="required" placeholder="Email Address">
-                                             <input type="email" name="website" class="form-control" required="required" placeholder="Website">
-                                        </div>
-                                        <div class="form-group col-sm-12">
-                                             <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
-                                        </div>
-                                   </div>
-                                   <div class="form-group">
-                                        <button type="submit" class="btn btn-primary">Send Your Message</button>
-                                   </div>
-                              </form>
-                         </div>
                     </div>
                </div>
           </div>
@@ -1289,7 +1292,7 @@
                     </div>
                     <div class="col-sm-4">
                          <div class="copyright-text">
-                              <p>&copy; copyright 2014 by <a href="#"> Humanity.</a> All rights reserved.</p>
+                              <p>&copy; copyright 2015 by <a href="#"> Roanoke Brain Injury Connection.</a> All rights reserved.</p>
                          </div>
                     </div>
                     <div class="col-sm-4">
