@@ -295,13 +295,22 @@
           <div class="container">
                <div class="row">
                     <div class="col-sm-6">
-                         <h1>How Else You Can Help!</h1>
-                         <p class="lead">Other ways to support us.</p>
+                         <h1>How else can you help?</h1>
+                         <div class="tab-content">
+                              <div class="tab-pane fade in active" id="amazonText">
+                                   <p class="lead">With AmazonSmile, Amazon donates 0.5% of the price of your eligible AmazonSmile purchases to the charitable organization of your choice.</p>
+                              </div>
+                              <div class="tab-pane fade" id="krogerText">
+                                   <p class="lead">Kroger Community Rewards allows non-profits to earn rewards every time you shop at Kroger and swipe your plus card.</p>
+                              </div>
+                         </div>
                          <!-- Nav tabs -->
                          <ul class="nav nav-tabs" role="tablist">
-                              <li class="active"><a href="#amazon" class="btn btn-primary" role="tab" data-toggle="tab">Amazon Smile</a>
+                              <li class="active">
+                                   <a href="#amazon" data-target="#amazonText, #amazon" class="btn btn-primary" role="tab" data-toggle="tab">Amazon Smile</a>
                               </li>
-                              <li><a href="#kroger" class="btn btn-primary" role="tab" data-toggle="tab">Kroger Community</a>
+                              <li>
+                                   <a href="#kroger" data-target="#krogerText, #kroger"  class="btn btn-primary" role="tab" data-toggle="tab">Kroger Community</a>
                               </li>
                          </ul>
                     </div>
@@ -320,7 +329,7 @@
                     </div>
                </div>
           </div>
-     </div>s
+     </div>
      <!--/#video-section-->
 
      <div id="events" class="padding-top-two">
