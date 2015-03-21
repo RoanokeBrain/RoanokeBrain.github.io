@@ -112,6 +112,14 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom:80px;
 }
 
+.margin-bottom-two {
+	margin-bottom: 40px;
+}
+
+.margin-bottom {
+	margin-bottom: 80px;
+}
+
 .section-title {
 	border-bottom: 1px solid #dddfe4;
 	margin-bottom: 15px;
