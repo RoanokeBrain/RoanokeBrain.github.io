@@ -1276,6 +1276,10 @@ a.navbar-brand {
 	margin-bottom:50px;
 }
 
+#word-for-humanity p {
+	min-height: 60px;
+}
+
 #humanity-carousel .carousel-indicators {
 	bottom:0;
 	width:60%;
