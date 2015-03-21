@@ -184,6 +184,10 @@ h6 {
      color: #fff;
 }
 
+#video-section .a-lead:hover {
+     text-decoration: underline;
+}
+
 .btn-default {
      border: 2px solid #fff;
      border-radius: 0;
