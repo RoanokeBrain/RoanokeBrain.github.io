@@ -543,7 +543,6 @@ a.navbar-brand {
 }
 
 .our-details-tab .tab-section {
-	margin-left:-15px;
 	padding-left:0;
 	height:292px;
 	overflow:hidden;
@@ -553,7 +552,9 @@ a.navbar-brand {
 	background-color: #fff;
 	padding: 30px 45px;
 	min-height:240px;
+	border-bottom:1px solid #ddd;
 	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;	
 }
 
 .our-details-tab .tab-content h4 {
