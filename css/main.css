@@ -62,6 +62,15 @@ a {
      transition: 300ms;
 }
 
+#word-for-humanity p,
+p.larger-text {
+     font-size: 22px;
+}
+
+p.med-text {
+     font-size: 16px;
+}
+
 #tohash {
      border: none;
      background-color: #3cb878;
