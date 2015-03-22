@@ -107,6 +107,11 @@ $(document).ready(function($) {
 	$('#event-carousel.carousel').carousel({
 	  interval: 8000
 	});
+
+	//Humanity Carousel
+	$('#humanity-carousel.carousel').carousel({
+	  interval: 8000
+	});
 	
 	$(document).ready(function () {
 		$(".navbar-nav li a").click(function(event) {
